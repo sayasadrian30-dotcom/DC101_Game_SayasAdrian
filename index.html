@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>⌨️ Typing Speed Test</h1>
+
+    <div id="text" class="text-box"></div>
+
+    <textarea id="input" placeholder="Start typing here..."></textarea>
+
+    <div class="stats">
+        <div>⏱ Time: <span id="time">0</span>s</div>
+        <div>⚡ WPM: <span id="wpm">0</span></div>
+    </div>
+
+    <div id="result" class="hidden">
+        <h2>🎉 Congratulations!</h2>
+        <p>You completed the test.</p>
+    </div>
+
+    <button id="retry">Retry</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
